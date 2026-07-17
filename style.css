@@ -1,9 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
+body{
+    background-color: white;
+}
+
+/* Nav section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,11 +30,73 @@ ul li a{
 }
 
 nav button{
-    background-color: #2563EB;
+    background-color: #1d4ed8FF;
     color: white;
-    padding: 15px 45px;
+    padding: 15px 48px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
+}
+
+/* Hero section */
+.hero{
+    position: relative;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 786px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+    z-index: 1;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+}
+
+.hero-content h1{
+    font-size: 58px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-content em{
+    font-style: italic;
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.hero-btn{
+    position: relative;
+    z-index: 2;
+    background-color:#1d4ed8FF;
+    color: white;
+    padding: 20px 68px;
+    border: 15px;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
 }
