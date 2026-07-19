@@ -161,7 +161,6 @@ nav button{
     color: #64748b;
 }
 
-
 /* Pricing section */
 .pricing {
     max-width: 1440px;
@@ -283,4 +282,68 @@ nav button{
     background-color: white;
     color: #0f172a;  
     border: 1px solid #0f172a;
+}
+
+/* Footer */
+.footer {
+    background-color: #0d1b2a;
+    padding: 24px 80px;
+    margin: 0 auto;
+    min-height: 145px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.footer-top img {
+    width: 120px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #1e3a5f;
+    margin-bottom: 24px;
+}
+
+.footer-copy{
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copy {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-links a {
+    color: #64748b;
+    font-size: 14px;
+    text-decoration: none;
 }
